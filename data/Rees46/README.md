@@ -13,7 +13,7 @@ This command will create several files (depending on the size of the original fi
 When you need to reconstruct the original file, you can use the `cat` command:
 
 ```bash
-cat Rees46_part_* > Rees46_reconstructed.zip
+cat Rees46_part_* > Rees46.zip
 ```
 
 This command concatenates the parts together into a new zip file. The order of concatenation is determined by the shell (which usually sorts the arguments lexicographically), so it's important to ensure that the parts are correctly numbered.
